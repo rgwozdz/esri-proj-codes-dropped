@@ -1,0 +1,18 @@
+{
+  "name": "@esri/proj-codes-dropped",
+  "version": "1.0.0",
+  "description": "Get a WKT representation from an set of older Esri projection codes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test | tap-spec",
+    "update-codes": "node scrape-convert.js"
+  },
+  "author": "Rich Gwozdz <rgwozdz@esri.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "deep-diff": "^1.0.1",
+    "del": "^3.0.0",
+    "nodegit": "^0.22.1",
+    "rimraf": "^2.6.2"
+  }
+}
