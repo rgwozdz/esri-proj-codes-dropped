@@ -8,6 +8,11 @@
     "update-codes": "node scrape-convert.js"
   },
   "author": "Rich Gwozdz <rgwozdz@esri.com",
+  "contributors": [
+    "Chris Helm",
+    "John Gravois <jgravois@esri.com>",
+    "Daniel Fenton <dfenton@esri.com>"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "deep-diff": "^1.0.1",

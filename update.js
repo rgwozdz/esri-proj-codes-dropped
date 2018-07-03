@@ -28,7 +28,3 @@ let repo
     await del(`./${latestTag}`)
   }
 }) ()
-
-
-// Compare Version 1.0.3 and 1.0.4.  Write any proj-codes in 1.0.3, but not in 1.0.4 to the appropriate JSON file
-//diffAndWrite(version1_0_3, version1_0_4)
